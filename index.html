@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Leftchest's nav</title>
+    <meta name="keywords" content="Private nav">
+    <meta name="description" content="何以解忧，唯有工作！"/>
+    <link rel="shortcut icon" href="static/img/favicon.png">
+    <link href="static/css/style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"><!--让网页的宽度自动适应手机屏幕的宽度-->
+    <!-- 百度统计代码 未启用
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?786a6208323fbecfb41d71bfda8daca6";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    -->
+<!-- 禁止右键 -->
+ <script>
+function Click(){
+<!-- alert('版权所有(C)2001 XXX工作室');-->
+window.event.returnValue=false;
+}
+document.oncontextmenu=Click;
+</script>
+</head>
+
+<body>
+<!-- 禁止右键 -->
+<body oncontextmenu="return false" onselectstart="return false" 
+
+ondragstart="return false" onbeforecopy="return false" oncopy=document.selection.empty() onselect=document.selection.empty()>
+<!-- 自定义按钮start -->
+<div class="zdy_button" onclick="zyd_show();">
+<!-- 自定义按钮隐藏    <img src="static/img/cl.ico"> -->
+</div>
+<!-- 自定义按钮end -->
+
+<div class="inner-center main">
+    <div class="content-inside">
+         <!-- slogan start -->
+        <div class="logo-box">
+            <div class="logo-left">
+                <img onclick="zyd_show();" src="./static/img/logo.gif" alt="logo">
+            </div>
+            <div class="logo-right">
+                <span><a href="https://tab.leftchest.cn">何以解忧</a>，<a href="index.htm">唯有工作</a></span>
+            </div>
+        </div>
+        <!-- slogan end -->
+    
+        <!-- 搜索框 start -->
+        <div id="search_form" class="search-section"target="_blank">
+            <div class="search-left">
+                <div id="search_logo" data-type="google" class="search-logo"></div>
+                <div class="input-wrap">
+                    <input id="search_keyword"
+                        class="search-input"
+                        name="keyword"
+                        maxlength="100"
+                        autocomplete="off"
+                        type="text"
+                        placeholder="勤学好问">
+                    <div class="clear-keyword" id="clear_keyword" title="清空">x</div>
+                </div>
+                <!--  搜索引擎 start  -->
+                <ul id="search_methods" class="search-methods">
+                    <li data-type="google" class="search-item google">谷歌</li>
+                    <li data-type="baidu" class="search-item baidu">百度</li>
+                    <li data-type="bing" class="search-item bing">必应</li>
+                    <li data-type="so" class="search-item so">360搜索</li>
+                    <li data-type="sogou" class="search-item sogou">搜狗</li>
+                    <li data-type="wangpan" class="search-item wangpan">网盘搜索</li>
+                </ul>
+                <!--  搜索引擎 end  -->
+                <!--  搜索结果 start -->
+                <ul id="search_result" class="search-result">
+                    <!--<li class="result-item"></li>-->
+                </ul>
+                <!--  搜索结果 end -->
+            </div>
+            <input class="search-submit" value="搜索" id="search_submit" type="submit">
+        </div>
+        <!-- 搜索框 end -->
+    
+        <!-- 导航地址 start -->
+        <div class="nav-content">
+            <div class="jj-list">
+                <div class="jj-list-tit">好 · Hao</div>
+                    <ul class="jj-list-con">
+                        <li><a href="http://hrhn.hrhnyy.cn/" class="jj-list-link" target="_blank" rel="nofollow">办事大厅</a><div class="i_r_edit" 
+onclick="zyd_edit('0');"></div></li>
+                        <li><a href="http://hrhn.hrhnyy.cn/" class="jj-list-link" target="_blank" rel="nofollow">大冢制药</a><div class="i_r_edit" 
+onclick="zyd_edit('1');"></div></li>
+                        <li><a href="http://localhost/" class="jj-list-link" target="_blank" rel="nofollow">辅助程序</a><div class="i_r_edit" onclick="zyd_edit('2');"></div></li>
+                        <li><a href="http://61.163.78.6:8089" class="jj-list-link" target="_blank" rel="nofollow">国控河南</a><div class="i_r_edit" onclick="zyd_edit('3');"></div></li>
+                        <li><a href="http://hrhn.hrhnyy.cn/" class="jj-list-link" target="_blank" rel="nofollow">华润河南</a><div class="i_r_edit" onclick="zyd_edit('4');"></div></li>
+                        <li><a href="http://flow.jztit.com/" class="jj-list-link" target="_blank" rel="nofollow">豫九州通</a><div class="i_r_edit" onclick="zyd_edit('5');"></div></li>
+                        <li><a href="https://swxt.henanyiyao.cn/group/hnyy" class="jj-list-link" target="_blank" rel="nofollow">省医公司</a><div class="i_r_edit" onclick="zyd_edit('6');"></div></li>
+                        <li><a href="http://yp.hnggzyjy.cn/HomePage/Default_new.aspx" class="jj-list-link" target="_blank" rel="nofollow">药采平台</a><div class="i_r_edit" onclick="zyd_edit('7');"></div></li>
+                        <li><a href="https://code.nhsa.gov.cn/search.html?sysflag=1006" class="jj-list-link" target="_blank" rel="nofollow">医保查询</a><div class="i_r_edit" onclick="zyd_edit('8');"></div></li>
+                    </ul>
+                </div>
+                <div class="jj-list">
+                    <div class="jj-list-tit">好 · Hao</div>
+                    <ul class="jj-list-con">
+                        <li><a href="https://db.yaozh.com/" class="jj-list-link" target="_blank" rel="nofollow">药智数据</a><div class="i_r_edit" onclick="zyd_edit('9');" style="display: none;"></div></li>
+                        <li><a href="https://storage.hncaa.cn" class="jj-list-link" target="_blank" rel="nofollow">OneIndex</a><div class="i_r_edit" onclick="zyd_edit('10');" style="display: none;"></div></li>
+                        <li><a href="https://link.fobshanghai.com/rmb.htm?btwaf=73458943" class="jj-list-link" target="_blank" rel="nofollow">大写转换</a><div class="i_r_edit" onclick="zyd_edit('11');" style="display: none;"></div></li>
+                        <li><a href="https://www.baidu.com/s?wd=%E4%BA%AC%E4%B8%9C%E7%89%A9%E6%B5%81&ie=UTF-8" class="jj-list-link" target="_blank" rel="nofollow">京东物流</a><div class="i_r_edit" onclick="zyd_edit('12');" style="display: none;"></div></li>
+                        <li><a href="https://xiaomark.com/" class="jj-list-link" target="_blank" rel="nofollow">短码转换</a><div class="i_r_edit" onclick="zyd_edit('13');" style="display: none;"></div></li>
+                        <li><a href="https://www.fanghong.net/" class="jj-list-link" target="_blank" rel="nofollow">赤壁防红</a><div class="i_r_edit" onclick="zyd_edit('14');" style="display: none;"></div></li>
+                        <li><a href="https://note.wps.cn/" class="jj-list-link" target="_blank" rel="nofollow">WPS便签</a><div class="i_r_edit" onclick="zyd_edit('15');" style="display: none;"></div></li>
+                        <li><a href="https://www.douban.com/" class="jj-list-link" target="_blank" rel="nofollow">后续加入</a><div class="i_r_edit" onclick="zyd_edit('16');" style="display: none;"></div></li>
+                        <li><a href="https://wx.qq.com/" class="jj-list-link" target="_blank" rel="nofollow">网页微信</a><div class="i_r_edit" onclick="zyd_edit('17');" style="display: none;"></div></li>
+                    </ul>
+                </div>
+                <div class="jj-list">
+                    <div class="jj-list-tit">干 · Gan</div>
+                    <ul class="jj-list-con">
+                        <li><a href="https://cowtransfer.com/" class="jj-list-link" target="_blank" rel="nofollow">临时文件</a><div class="i_r_edit" onclick="zyd_edit('18');" style="display: none;"></div></li>
+                        <li><a href="https://www.materialtools.com/?page=1" class="jj-list-link" target="_blank" rel="nofollow">临时短信</a><div class="i_r_edit" onclick="zyd_edit('19');" style="display: none;"></div></li>
+                        <li><a href="https://www.linshiyouxiang.net/" class="jj-list-link" target="_blank" rel="nofollow">临时邮箱</a><div class="i_r_edit" onclick="zyd_edit('20');" style="display: none;"></div></li>
+                        <li><a href="https://ac.scmor.com/" class="jj-list-link" target="_blank" rel="nofollow">文档下载</a><div class="i_r_edit" onclick="zyd_edit('21');" style="display: none;"></div></li>
+                        <li><a href="https://www.photopea.com/" class="jj-list-link" target="_blank" rel="nofollow">在线PS</a><div class="i_r_edit" onclick="zyd_edit('22');" style="display: none;"></div></li>
+                        <li><a href="https://cli.im/" class="jj-list-link" target="_blank" rel="nofollow">草料维码</a><div class="i_r_edit" onclick="zyd_edit('23');" style="display: none;"></div></li>
+                        <li><a href="http://www.tretars.com/123-ppt.html" class="jj-list-link" target="_blank" rel="nofollow">PPT学习</a><div class="i_r_edit" onclick="zyd_edit('24');" style="display: none;"></div></li>
+                        <li><a href="https://www.tool22.com/" class="jj-list-link" target="_blank" rel="nofollow">兔二工具</a><div class="i_r_edit" onclick="zyd_edit('25');" style="display: none;"></div></li>
+                        <li><a href="https://cn.office-converter.com/" class="jj-list-link" target="_blank" rel="nofollow">在线工具</a><div class="i_r_edit" onclick="zyd_edit('26');" style="display: none;"></div></li>
+                    </ul>
+                </div>
+                <div class="jj-list">
+                    <div class="jj-list-tit">笑 · Xiao</div>
+                    <ul class="jj-list-con">
+                        <li><a href="https://www.52pojie.cn/" class="jj-list-link" target="_blank" rel="nofollow">吾爱破解</a><div class="i_r_edit" onclick="zyd_edit('27');" style="display: none;"></div></li>
+                        <li><a href="https://www.423down.com/" class="jj-list-link" target="_blank" rel="nofollow">423下载</a><div class="i_r_edit" onclick="zyd_edit('28');" style="display: none;"></div></li>
+                        <li><a href="https://www.ghpym.com/category/all" class="jj-list-link" target="_blank" rel="nofollow">果核剥壳</a><div class="i_r_edit" onclick="zyd_edit('29');" style="display: none;"></div></li>
+                        <li><a href="https://bbs.binmt.cc/forum.php/" class="jj-list-link" target="_blank" rel="nofollow">MT论坛</a><div class="i_r_edit" onclick="zyd_edit('30');" style="display: none;"></div></li>
+                        <li><a href="https://android-zone.ws/forum/2-android-applications/" class="jj-list-link" target="_blank" rel="nofollow">安卓ZONE</a><div class="i_r_edit" onclick="zyd_edit('31');" style="display: none;"></div></li>
+                        <li><a href="https://platinmods.com/forums/android-mods-by-approved-modders.115/" class="jj-list-link" target="_blank" rel="nofollow">安卓MOD</a><div class="i_r_edit" onclick="zyd_edit('32');" style="display: none;"></div></li>
+                        <li><a href="https://ifttt.com/" class="jj-list-link" target="_blank" rel="nofollow">IFTTT</a><div class="i_r_edit" onclick="zyd_edit('33');" style="display: none;"></div></li>
+                        <li><a href="https://greasyfork.org/zh-CN/scripts" class="jj-list-link" target="_blank" rel="nofollow">脚本列表</a><div class="i_r_edit" onclick="zyd_edit('34');" style="display: none;"></div></li>
+                        <li><a href="https://www.extfans.com/" class="jj-list-link" target="_blank" rel="nofollow">痴迷扩展</a>
+                        <div class="i_r_edit" onclick="zyd_edit('35');" style="display: none;"></div></li>
+                    </ul>
+                </div>
+                <div class="jj-list">
+                    <div class="jj-list-tit">嘻 · Xi</div>
+                    <ul class="jj-list-con">
+                        <li><a href="https://51.ruyo.net/" class="jj-list-link" target="_blank" rel="nofollow">如有分享</a><div class="i_r_edit" onclick="zyd_edit('36');" style="display: none;"></div></li>
+                        <li><a href="https://www.appinn.com/" class="jj-list-link" target="_blank" rel="nofollow">小众软件</a><div class="i_r_edit" onclick="zyd_edit('37');" style="display: none;"></div></li>
+                        <li><a href="https://karanpc.com/" class="jj-list-link" target="_blank" rel="nofollow">karanpc</a><div class="i_r_edit" onclick="zyd_edit('38');" style="display: none;"></div></li>
+                        <li><a href="https://www.sadeempc.com/" class="jj-list-link" target="_blank" rel="nofollow">sadeempc</a><div class="i_r_edit" onclick="zyd_edit('39');" style="display: none;"></div></li>
+                        <li><a href="https://www.mazterize.co/" class="jj-list-link" target="_blank" rel="nofollow">mazterize</a><div class="i_r_edit" onclick="zyd_edit('40');" style="display: none;"></div></li>
+                        <li><a href="https://startcrack.com/" class="jj-list-link" target="_blank" rel="nofollow">startcrack</a><div class="i_r_edit" onclick="zyd_edit('41');" style="display: none;"></div></li>
+                        <li><a href="https://www.soukuzhan.com/" class="jj-list-link" target="_blank" rel="nofollow">搜酷站网</a><div class="i_r_edit" onclick="zyd_edit('42');" style="display: none;"></div></li>
+                        <li><a href="https://weibomiaopai.com/" class="jj-list-link" target="_blank" rel="nofollow">视频下载</a><div class="i_r_edit" onclick="zyd_edit('43');" style="display: none;"></div></li>
+                        <li><a href="https://www.eggvod.cn/music/" class="jj-list-link" target="_blank" rel="nofollow">音乐下载</a><div class="i_r_edit" onclick="zyd_edit('44');" style="display: none;"></div></li>
+                    </ul>
+                </div>
+                <div class="jj-list">
+                    <div class="jj-list-tit">嘻 · Xi</div>
+                    <ul class="jj-list-con">
+                        <li><a href="https://leftchest.cn/" class="jj-list-link" target="_blank" rel="nofollow">Portfolio</a><div class="i_r_edit" onclick="zyd_edit('45');" style="display: none;"></div></li>
+                        <li><a href="https://dash.cloudflare.com/17cd94ae76bba96d52d0234ce9c1dc38/hncaa.cn" class="jj-list-link" target="_blank" rel="nofollow">CloudFlare</a><div class="i_r_edit" onclick="zyd_edit('46');" style="display: none;"></div></li>
+                        <li><a href="https://github.com/" class="jj-list-link" target="_blank" rel="nofollow">GitHub</a><div class="i_r_edit" onclick="zyd_edit('47');" style="display: none;"></div></li>
+                        <li><a href="https://gitee.com/" class="jj-list-link" target="_blank" rel="nofollow">gitpage</a><div class="i_r_edit" onclick="zyd_edit('48');" style="display: none;"></div></li>
+                        <li><a href="https://vercel.com/dashboard/projects" class="jj-list-link" target="_blank" rel="nofollow">Vercel</a><div class="i_r_edit" onclick="zyd_edit('49');" style="display: none;"></div></li>
+                        <li><a href="https://app.splitbee.io/projectsn" class="jj-list-link" target="_blank" rel="nofollow">Splitbee</a><div class="i_r_edit" onclick="zyd_edit('50');" style="display: none;"></div></li>
+                        <li><a href="https://newserv.freewha.com/freewha.cpanel" class="jj-list-link" target="_blank" rel="nofollow">Freewha</a><div class="i_r_edit" onclick="zyd_edit('51');" style="display: none;"></div></li>
+                        <li><a href="https://jinkela.wtf" class="jj-list-link" target="_blank" rel="nofollow">jinkela</a><div class="i_r_edit" onclick="zyd_edit('52');" style="display: none;"></div></li>
+                        <li><a href="https://leftchest.cn/blog" class="jj-list-link" target="_blank" rel="nofollow">Ntblog</a><div class="i_r_edit" onclick="zyd_edit('53');" style="display: none;"></div></li>
+                    </ul>
+                </div>
+            </div>
+        <!-- 导航地址 end -->
+    </div>
+</div>
+
+<div class="zdy" date="24">
+    <div class="zdy_content">
+        <div class="zdy_top">
+            <span class="zdy_edit"></span>自定义链接
+            <span class="zdy_close" onclick="zdy_close();"></span>
+        </div>
+        <div class="zdy_mi">
+            <div class="z_m_i">
+                <span class="z_i_img_1"></span>
+                <input type="text" class="zdy_input zdy_name" placeholder="微博">
+            </div>
+            <div class="z_m_i">
+                <span class="z_i_img_2"></span>
+                <input type="text" class="zdy_input zdy_link" placeholder="http://www.weibo.com/">
+            </div>
+            <div class="tip">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提示：数据临时存储在本地电脑，数据丢失无法找回
+            </div>
+        </div>
+        <div class="zdy_foot">
+            <div class="zdy_false zdy_b" onclick="zdy_false();">取消</div>
+            <div class="zdy_true zdy_b" onclick="zdy_true();">确定</div>
+        </div>
+    </div>
+</div>
+ <!-- 使用帮助 开始 -->
+<div class="qq-client">
+    <a href="javascript:void(0);" class="qq-client-open">使<br/>用<br/>帮<br/>助</a>
+</div> 
+<div class="qq-client-content">
+    <h1>使用帮助<span class="qq-client-close">关闭</span></h1>
+    <div class="qq-client-list">
+        <div class="client-list"><label></label><span>① 点击logo可自定义链接</span></a> </div>
+        <div class="client-list"><label></label><span>② 点击logo后文字可翻页</span></a> </div>
+        <div class="client-list"><label></label><span>③ 本站已完成移动端适配</span></a> </div>
+        <div class="client-list"><a href="https://support.qq.com/products/321579" target="_blank"><label></label><span>✎ 点击此处Bug留言反馈</span></a> </div>
+        <div class="client-list" style="border-bottom: none"><a href="https://support.qq.com/products/321579/faqs/93012"><label></label><span>❤ 点击此处打赏支持我们</span></a> </div>
+    </div>
+</div>
+ <!-- 使用帮助 结束 -->
+<footer class="inner-center footer">
+   <!--  小猫图片未启用
+   <p><a href="https://github.com/TopVitamin/static-nav" target="_blank"> <img src="./static/css/img/github.png" alt="" height="20" width="20"></a>
+    </p> -->
+<p style="margin-top:8px;"><a href="https://leftchest.cn" style="color:#8C8C8C;" target="_blank">Leftchest © 2022</a><a href="https://github.com/TopVitamin/static-nav" style="color:#8C8C8C;" target="_blank">&nbsp;开源地址</a><a href="https://support.qq.com/products/321579/" style="color:#8C8C8C;" target="_blank">&nbsp;反馈</a><a href="https://support.qq.com/products/321579/faqs/93012" style="color:#8C8C8C;">&nbsp;打赏支持</a>
+ </p>
+ 
+</footer>
+
+<script src="./static/js/jquery.min.js"></script>
+<script src="./static/js/keyword.js"></script>
+<script type="text/javascript" src="./static/js/js.min.js"></script>
+
+</body>
+</html>
