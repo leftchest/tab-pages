@@ -1,0 +1,1 @@
+{"key": "csp_xpath_mojie","name": "魔戒(XPMF)","type": 3,"api": "csp_XPathMacFilter","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://share.nite07.com/api/v3/file/source/25308/mojie.json?sign=rmGJoUBpW7zDXFueIyZcyFP123z_4LTU7_HgS-_A8Uo%3D%3A0"},
