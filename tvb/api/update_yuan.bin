@@ -1,79 +1,25 @@
-{
-	"urls": [
-	{
-		"url": "http://饭太硬.top/tv",
-		"name": "💎饭太接口"
-	},
-	{
-		"url": "http://xhww.fun:63/小米/DEMO.json",
-		"name": "🚀小米接口"
-	},
-	{
-		"url": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
-		"name": "🚀蜂蜜接口"
-	},
-	{
-		"url": "https://100km.top/0",
-		"name": "🚀纯一骚零"
-	},
-	{
-		"url": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json",
-		"name": "🚀蜂蜜二线"
-	},
-	{
-		"url": "https://ghproxy.com/raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json",
-		"name": "🚀霜辉月明"
-	},
-	{
-		"url": "https://tvbox.cainisi.cf",
-		"name": "🚀菜妮丝线"
-	},
-	{
-		"url": "https://pastebin.com/raw/5NHaxyGR",
-		"name": "🚀道长接口"
-	},
-	{
-		"url": "http://home.jundie.top:81/top98.json",
-		"name": "🚀俊佬接口"
-	},
-	{
-		"url": "http://101.34.67.237/config/1",
-		"name": "🚀小雅接口"
-	},
-	{
-		"url": "https://raw.gitmirror.com/yydfys/yydf/main/yydf/yydf.json",
-		"name": "🚀业余接口"
-	},
-	{
-		"url": "https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json",
-		"name": "🚀PGone接口"
-	},
-	{
-		"url": "https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
-		"name": "🚀香雅倩JS"
-	},
-	{
-		"url": "https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
-		"name": "🚀香雅倩XYQ"
-	},
-	{
-		"url": "http://肥猫.love",
-		"name": "🚀肥猫接口"
-	},
-	{
-		"url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
-		"name": "💎南风接口"
-	},
-	{
-		"url": "https://weixine.net/ysc.json",
-		"name": "🚀运输车线"
-	},
-	{
-		"url": "https://yydsys.top/duo",
-		"name": "🚀多多接口"
-	},
-	{
-		"url": "https://weixine.net/ysc.json",
-		"name": "🚀多多阿里"
-	}]
+{"urls":
+  [
+    {"url":"http://饭太硬.top/tv","name":"💎饭太接口"},
+    {"url":"http://xhww.fun:63/小米/DEMO.json","name":"🚀小米接口"},
+    {"url":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json","name":"🚀蜂蜜接口"},
+    {"url":"https://100km.top/0","name":"🚀纯一骚零"},
+    {"url":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json","name":"🚀蜂蜜二线"},
+    {"url":"https://ghproxy.com/raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json","name":"🚀霜辉月明"},
+    {"url":"https://tvbox.cainisi.cf","name":"🚀菜妮丝线"},
+    {"url":"https://pastebin.com/raw/5NHaxyGR","name":"🚀道长接口"},
+    {"url":"http://home.jundie.top:81/top98.json","name":"🚀俊佬接口"},
+    {"url":"http://101.34.67.237/config/1","name":"🚀小雅接口"},
+    {"url":"https://raw.gitmirror.com/yydfys/yydf/main/yydf/yydf.json","name":"🚀业余接口"},
+    {"url":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json","name":"🚀PGone接口"},
+    {"url":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json","name":"🚀香雅倩JS"},
+    {"url":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json","name":"🚀香雅倩XYQ"},
+    {"url":"http://肥猫.love","name":"🚀肥猫接口"},
+    {"url":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json","name":"💎南风接口"},
+    {"url":"https://weixine.net/ysc.json","name":"🚀运输车线"},
+    {"url":"https://raw.liucn.cc/box/m.json","name":"🚀老刘备线"},
+    {"url":"https://xhdwc.tk/0","name":"🚀dxawi接口"},
+    {"url":"https://yydsys.top/duo","name":"🚀多多接口"},
+    {"url":"http://yydsys.top/duo/ali","name":"🚀多多阿里"}
+  ]
 }
