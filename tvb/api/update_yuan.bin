@@ -21,6 +21,7 @@
     {"url":"https://yydsys.top/duo","name":"🚀多多接口"},
     {"url":"http://www.dmtv.ml/mao/single.json","name":"🚀乱世接口"},    
     {"url":"https://agit.ai/n/b/raw/branch/a/b/c.json","name":"🚀abc接口"},
+    {"url":"http://52bsj.vip:98/wuai","name":"🚀吾爱接口"},
     {"url":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json","name":"🚀蜂蜜接口"},
     {"url":"https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json","name":"🚀蜂蜜二线"}
   ]
